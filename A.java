@@ -12,7 +12,7 @@ public class A {
 		this.A1 = umA1;
 	}
 	
-	public void setA2(int umA2){
+	public void setA2(float umA2){
 		this.A2 = umA2;
 	}
 	
@@ -30,6 +30,10 @@ public class A {
 	
 	public String MA2(){
 		return ("MA1");
+	}
+	
+	public String MA3(){
+		return ("Alteração a classe A partir do clone");
 	}
 	
 }
